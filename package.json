@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+     "start": "node index.ks"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/bkautz0824/Node-api4-heroku/issues"
   },
-  "homepage": "https://github.com/bkautz0824/Node-api4-heroku#readme"
+  "homepage": "https://github.com/bkautz0824/Node-api4-heroku#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
 }
